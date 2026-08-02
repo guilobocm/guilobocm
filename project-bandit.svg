@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&amp;family=Inter:wght@500;600;700;800&amp;display=swap');
+      
       
       .bg { fill: #F8FAFC; stroke: #E2E8F0; stroke-width: 2; rx: 12; }
       
-      .text-primary { font-family: 'Inter', sans-serif; fill: #1E293B; }
-      .text-secondary { font-family: 'Inter', sans-serif; fill: #64748B; }
-      .text-code { font-family: 'JetBrains Mono', monospace; fill: #475569; }
+      .text-primary { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #1E293B; }
+      .text-secondary { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #64748B; }
+      .text-code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; fill: #475569; }
       
       .accent-teal { fill: #0F766E; }
       .accent-gold { fill: #D97706; }
@@ -43,7 +43,7 @@
     <text x="30" y="45" class="text-secondary" font-size="22" font-weight="700" letter-spacing="2">DYNAMIC ROUTING</text>
     
     <!-- Flow visual (Traffic -> Policy -> Allocation Vector) -->
-    <g font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700" text-anchor="middle">
+    <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="700" text-anchor="middle">
       <text x="170" y="80" class="text-primary">TRAFFIC</text>
       
       <path d="M 170 90 L 170 105" stroke="#94A3B8" stroke-width="2" />
@@ -76,17 +76,17 @@
       
       <!-- Arm A (Wide, left, uncertain) -->
       <path d="M 20 0 C 40 0, 50 -40, 80 -40 C 110 -40, 120 0, 140 0" class="stroke-slate" stroke-dasharray="4 4"/>
-      <text x="65" y="-50" class="text-secondary" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">A</text>
+      <text x="65" y="-50" class="text-secondary" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700">A</text>
       
       <!-- Arm C (Medium width, middle) -->
       <path d="M 80 0 C 110 0, 125 -60, 150 -60 C 175 -60, 190 0, 220 0" class="stroke-slate" />
-      <text x="145" y="-70" class="text-secondary" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">C</text>
+      <text x="145" y="-70" class="text-secondary" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700">C</text>
       
       <!-- Arm B (Narrow, right, highly confident & optimal) -->
       <path d="M 170 0 C 190 0, 210 -100, 230 -100 C 250 -100, 270 0, 290 0" class="stroke-teal" />
       <!-- Filled Area -->
       <path d="M 170 0 C 190 0, 210 -100, 230 -100 C 250 -100, 270 0, 290 0 L 290 0 Z" class="accent-teal" opacity="0.1" />
-      <text x="225" y="-110" class="accent-teal" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">B</text>
+      <text x="225" y="-110" class="accent-teal" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700">B</text>
     </g>
   </g>
 
