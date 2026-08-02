@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      
+      .bg { fill: transparent; }
+      
+      .name {
+        font-family: 'Inter', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        fill: #0F172A;
+      }
+      
+      .title {
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        fill: #0D9488;
+        letter-spacing: 0.5px;
+      }
+      
+      .subtitle {
+        font-family: 'Inter', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: italic;
+        fill: #475569;
+      }
+      
+      .flow-box {
+        fill: transparent;
+        stroke-width: 1.5;
+        rx: 4;
+      }
+      
+      .flow-box-cyan { stroke: #06B6D4; }
+      .flow-box-amber { stroke: #F59E0B; }
+      .flow-box-slate { stroke: #94A3B8; }
+      
+      .flow-text {
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-anchor: middle;
+      }
+      
+      .flow-text-cyan { fill: #0891B2; }
+      .flow-text-amber { fill: #D97706; }
+      .flow-text-slate { fill: #64748B; }
+      
+      .arrow {
+        fill: none;
+        stroke: #CBD5E1;
+        stroke-width: 1.5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .name { fill: #F8FAFC; }
+        .title { fill: #2DD4BF; }
+        .subtitle { fill: #94A3B8; }
+        
+        .flow-box-cyan { stroke: #22D3EE; }
+        .flow-box-amber { stroke: #FBBF24; }
+        .flow-box-slate { stroke: #475569; }
+        
+        .flow-text-cyan { fill: #22D3EE; }
+        .flow-text-amber { fill: #FBBF24; }
+        .flow-text-slate { fill: #94A3B8; }
+        
+        .arrow { stroke: #334155; }
+      }
+    </style>
+  </defs>
+
+  <rect width="800" height="300" class="bg" />
+
+  <g transform="translate(400, 100)" text-anchor="middle">
+    <text y="0" class="name">Guilherme Lôbo Calazans Machado</text>
+    <text y="35" class="title">Decision Intelligence · ML Systems · Data Engineering</text>
+    <text y="65" class="subtitle">Building production-oriented systems that turn uncertain data into measurable decisions.</text>
+  </g>
+
+  <!-- Flow Diagram -->
+  <g transform="translate(70, 200)">
+    <!-- DATA -->
+    <rect x="0" y="0" width="100" height="32" class="flow-box flow-box-cyan" />
+    <text x="50" y="21" class="flow-text flow-text-cyan">DATA</text>
+    
+    <!-- Arrow -->
+    <path d="M 108 16 L 124 16 M 120 12 L 124 16 L 120 20" class="arrow" />
+    
+    <!-- FORECAST -->
+    <rect x="132" y="0" width="100" height="32" class="flow-box flow-box-slate" />
+    <text x="182" y="21" class="flow-text flow-text-slate">FORECAST</text>
+
+    <!-- Arrow -->
+    <path d="M 240 16 L 256 16 M 252 12 L 256 16 L 252 20" class="arrow" />
+    
+    <!-- UNCERTAINTY -->
+    <rect x="264" y="0" width="120" height="32" class="flow-box flow-box-slate" />
+    <text x="324" y="21" class="flow-text flow-text-slate">UNCERTAINTY</text>
+
+    <!-- Arrow -->
+    <path d="M 392 16 L 408 16 M 404 12 L 408 16 L 404 20" class="arrow" />
+
+    <!-- DECISION -->
+    <rect x="416" y="0" width="100" height="32" class="flow-box flow-box-amber" />
+    <text x="466" y="21" class="flow-text flow-text-amber">DECISION</text>
+
+    <!-- Arrow -->
+    <path d="M 524 16 L 540 16 M 536 12 L 540 16 L 536 20" class="arrow" />
+
+    <!-- MONITORING -->
+    <rect x="548" y="0" width="112" height="32" class="flow-box flow-box-slate" />
+    <text x="604" y="21" class="flow-text flow-text-slate">MONITORING</text>
+  </g>
+</svg>

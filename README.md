@@ -1,52 +1,78 @@
-<h1 align="center">Guilherme Lôbo Calazans Machado</h1>
-
-<h3 align="center">DATA SCIENCE FOR DECISIONS UNDER UNCERTAINTY</h3>
-
 <p align="center">
-  <i>Building production-oriented ML, experimentation and forecasting systems from Campinas, Brazil — with Wellington on the horizon.</i>
+  <picture>
+    <img src="hero.svg" alt="Guilherme Lôbo Calazans Machado - Decision Intelligence · ML Systems · Data Engineering" />
+  </picture>
 </p>
 
-<p align="center">
-  <b>Experimentation • Predictive Maintenance • Sports Analytics</b>
-</p>
+## What I Build
 
-<br>
+### 🧠 Decision Intelligence
+Forecasting probabilístico, experimentação, causalidade, simulação e otimização.
 
-## About
+### ⚙️ Production ML Systems
+Pipelines de treino e inferência, APIs, observabilidade, testes, versionamento e MLOps.
 
-I am a Data Scientist & ML Engineer focused on the intersection of probabilistic modelling and business decision-making. I build systems that don't just predict the future, but quantify uncertainty and optimise the actions taken from those predictions.
-
-## Selected Work
-
-### [⚽ Probabilistic Football Pool Optimiser](https://github.com/guilobocm/probabilistic-football-pool-optimiser)
-> **Decision Science • Dixon–Coles • Monte Carlo • Forensic Postmortem**  
-A reproducible decision-science system combining football probability models, tournament simulation and expected-points optimisation. Features a forensically audited postmortem of the 2026 World Cup Group Stage.
-
-### [🎰 Multi-Armed Bandit Optimisation API](https://github.com/guilobocm/activeview-multi-armed-bandit)
-> **Thompson Sampling • FastAPI • PostgreSQL • Experiment Allocation**  
-An online experimentation system using multi-armed bandits to dynamically allocate traffic and optimise reward rates.
-
-### [🏭 Industrial Data Extraction Pipeline](https://github.com/guilobocm/tractian-ml-challenge)
-> **Web Scraping • Data Engineering • Industrial Catalogue**  
-A robust scraping pipeline that extracts structured product data, specifications, bill of materials and technical assets from the Baldor industrial equipment catalogue.
+### 📊 Data Platforms
+Ingestão, transformação, qualidade, modelagem analítica, lineage e disponibilização de dados.
 
 ---
 
-## Current Focus
+## Featured Systems
 
-* Experimentation and revenue optimisation;
-* Industrial data engineering and predictive maintenance;
-* Reproducible probabilistic systems;
-* Relocation and career opportunities in New Zealand.
+### [Probabilistic Football Pool Optimiser](https://github.com/guilobocm/probabilistic-football-pool-optimiser)
+**Problem:** Choose predictions that maximise expected points, not merely the most likely scoreline.  
+**System:** Dixon–Coles · Monte Carlo · Expected-points optimisation.  
+**Evidence:** 100,000 simulations · 60.6% 1X2 accuracy · +10 observed points versus modal selection.  
+[Explore Project](https://github.com/guilobocm/probabilistic-football-pool-optimiser)
 
-## Technical Stack
+### [Multi-Armed Bandit Optimisation API](https://github.com/guilobocm/activeview-multi-armed-bandit)
+**Problem:** Dynamically allocate traffic to optimise reward rates during live experiments.  
+**System:** Thompson Sampling · FastAPI · PostgreSQL · Online Experimentation.  
+**Evidence:** Fast allocation · State persistence · Reproducible strategies.  
+[Explore Project](https://github.com/guilobocm/activeview-multi-armed-bandit)
 
-| Category | Technologies |
-|---|---|
-| **Modelling** | Python · PyTorch · scikit-learn · Statsmodels |
-| **Data** | SQL · PostgreSQL · Snowflake · Pandas |
-| **Engineering** | FastAPI · Docker · GitHub Actions · uv |
-| **Decision Systems** | Experimentation · MAB · Simulation · Optimisation |
+### [Industrial Data Extraction Pipeline](https://github.com/guilobocm/tractian-ml-challenge)
+**Problem:** Extract and structure complex technical specifications from industrial catalogues.  
+**System:** Web Scraping · Data Engineering · Pipeline Orchestration.  
+**Evidence:** High-fidelity data models · Robust parsing of technical assets.  
+[Explore Project](https://github.com/guilobocm/tractian-ml-challenge)
+
+---
+
+## Engineering Evidence
+
+* ✓ Reproducible pipelines and locked environments
+* ✓ Unit and end-to-end tests
+* ✓ Data and schema validation
+* ✓ CI quality gates
+* ✓ Model and decision evaluation
+* ✓ Auditable experiment outputs
+
+---
+
+## Tools I Work With
+
+* **Modelling:** Python, PyTorch, scikit-learn, Statsmodels
+* **Data:** SQL, PostgreSQL, Snowflake, Pandas
+* **Engineering:** FastAPI, Docker, GitHub Actions, uv
+* **Decision Systems:** Experimentation, MAB, Simulation, Optimisation
+
+---
+
+## About Me
+
+I am a Data Scientist & ML Engineer based in Campinas, Brazil, with Wellington, New Zealand, on the horizon. My work spans from predictive maintenance in industrial settings to complex decision systems in sports analytics. I focus on the intersection of probabilistic modelling and business decision-making—building systems that don't just predict the future, but quantify uncertainty and optimise the actions taken from those predictions.
+
+---
+
+## Now Building
+
+* **Entre-Eras:** cross-era sports modelling and historical simulation;
+* **Open Decision Lab:** reusable architecture for forecasting and decision systems;
+* **Railway Predictive Maintenance:** acoustic deep learning for fault detection and RUL;
+* **MLOps depth:** observability, deployment strategies and model governance.
+
+---
 
 ## Contact
 
