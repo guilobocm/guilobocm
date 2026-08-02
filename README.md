@@ -67,11 +67,24 @@ Sub-15ms allocation · Persistent state · Reproducible agent strategies
 
 [**EXPLORE SYSTEM ↗**](https://github.com/guilobocm/activeview-multi-armed-bandit)
 
-### [Industrial Data Extraction Pipeline](https://github.com/guilobocm/tractian-ml-challenge)
-**Problem:** Extract and structure complex technical specifications from industrial catalogues.  
-**System:** Web Scraping · Data Engineering · Pipeline Orchestration.  
-**Evidence:** High-fidelity data models · Robust parsing of technical assets.  
-[Explore Project](https://github.com/guilobocm/tractian-ml-challenge)
+<br>
+
+**03 / DATA PLATFORMS**
+### [INDUSTRIAL DATA EXTRACTION PIPELINE](https://github.com/guilobocm/tractian-ml-challenge)
+> A data-engineering pipeline that transforms messy industrial catalogues into validated, structured technical data.
+
+[![Data Extraction Plate](project-extraction.svg)](https://github.com/guilobocm/tractian-ml-challenge)
+
+**ENGINEERING PROBLEM**  
+Extract consistent product attributes from noisy, semi-structured technical documents with heterogeneous formats and incomplete fields.
+
+**SYSTEM**  
+Parsing pipeline · Attribute normalisation · Schema mapping · Validation logic
+
+**EVIDENCE**  
+Structured attribute coverage 90%+ · Robust parsing of semi-structured assets · Reproducible extraction workflow
+
+[**EXPLORE SYSTEM ↗**](https://github.com/guilobocm/tractian-ml-challenge)
 
 ---
 
