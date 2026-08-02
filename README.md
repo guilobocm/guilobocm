@@ -31,11 +31,24 @@ Ingestion, transformation, quality, analytical modelling, lineage and analytics.
 
 ## Featured Systems
 
-### [Probabilistic Football Pool Optimiser](https://github.com/guilobocm/probabilistic-football-pool-optimiser)
-**Problem:** Choose predictions that maximise expected points, not merely the most likely scoreline.  
-**System:** Dixon–Coles · Monte Carlo · Expected-points optimisation.  
-**Evidence:** 100,000 simulations · 60.6% 1X2 accuracy · +10 observed points versus modal selection.  
-[Explore Project](https://github.com/guilobocm/probabilistic-football-pool-optimiser)
+<br>
+
+**01 / DECISION SCIENCE**
+### [PROBABILISTIC FOOTBALL POOL OPTIMISER](https://github.com/guilobocm/probabilistic-football-pool-optimiser)
+> A reproducible decision-science system that combines football probability models, tournament simulation and scoring-rule optimisation.
+
+[![Football Pool Optimiser Plate](project-football.svg)](https://github.com/guilobocm/probabilistic-football-pool-optimiser)
+
+**DECISION PROBLEM**  
+Choose predictions that maximise expected points, rather than simply selecting the most likely scoreline.
+
+**SYSTEM**  
+Dixon–Coles · Monte Carlo simulation · Scoring-rule optimisation · Reproducible pipeline
+
+**EVIDENCE**  
+100,000 simulations · 60.6% 1X2 accuracy · +10 observed points against modal selection
+
+[**EXPLORE SYSTEM ↗**](https://github.com/guilobocm/probabilistic-football-pool-optimiser) &nbsp;·&nbsp; [**READ POST-MORTEM ↗**](https://github.com/guilobocm/probabilistic-football-pool-optimiser/tree/main/postmortem)
 
 ### [Multi-Armed Bandit Optimisation API](https://github.com/guilobocm/activeview-multi-armed-bandit)
 **Problem:** Dynamically allocate traffic to optimise reward rates during live experiments.  

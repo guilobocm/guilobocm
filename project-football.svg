@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&amp;family=Inter:wght@400;500;600&amp;display=swap');
+      
+      .bg { fill: #F8FAFC; stroke: #E2E8F0; stroke-width: 1; rx: 6; }
+      
+      .text-base { font-family: 'Inter', sans-serif; fill: #334155; }
+      .text-code { font-family: 'JetBrains Mono', monospace; fill: #475569; }
+      
+      .accent-teal { fill: #0D9488; }
+      .accent-gold { fill: #D97706; }
+      .stroke-teal { stroke: #0D9488; stroke-width: 1.5; fill: none; }
+      .stroke-gold { stroke: #D97706; stroke-width: 2; fill: none; }
+      
+      .grid-line { stroke: #E2E8F0; stroke-width: 1; stroke-dasharray: 4 4; fill: none; }
+      
+      .panel { fill: #FFFFFF; stroke: #E2E8F0; stroke-width: 1; rx: 4; }
+      .panel-header { fill: #F1F5F9; }
+      
+      @media (prefers-color-scheme: dark) {
+        .bg { fill: #0B1120; stroke: #1E293B; }
+        .text-base { fill: #CBD5E1; }
+        .text-code { fill: #94A3B8; }
+        .accent-teal { fill: #14B8A6; }
+        .accent-gold { fill: #F59E0B; }
+        .stroke-teal { stroke: #14B8A6; }
+        .stroke-gold { stroke: #F59E0B; }
+        .grid-line { stroke: #1E293B; }
+        .panel { fill: #0F172A; stroke: #1E293B; }
+        .panel-header { fill: #1E293B; }
+      }
+    </style>
+  </defs>
+
+  <!-- Plate Background -->
+  <rect x="1" y="1" width="798" height="448" class="bg" />
+
+  <!-- Background Grid -->
+  <path d="M 0 112.5 L 800 112.5 M 0 225 L 800 225 M 0 337.5 L 800 337.5" class="grid-line" />
+  <path d="M 200 0 L 200 450 M 400 0 L 400 450 M 600 0 L 600 450" class="grid-line" />
+
+  <!-- Header Title -->
+  <text x="40" y="45" class="text-base" font-size="12" font-weight="600" letter-spacing="2">DIXON-COLES EXPECTED POINTS OPTIMISATION</text>
+  <circle cx="22" cy="41" r="4" class="accent-teal" />
+
+  <!-- Center Abstract Data Table -->
+  <g transform="translate(60, 100)">
+    <rect x="0" y="0" width="300" height="180" class="panel" />
+    <rect x="1" y="1" width="298" height="30" class="panel-header" rx="3" />
+    <text x="15" y="20" class="text-code" font-size="11" font-weight="500">HOME</text>
+    <text x="100" y="20" class="text-code" font-size="11" font-weight="500">AWAY</text>
+    <text x="180" y="20" class="text-code" font-size="11" font-weight="500">PROB</text>
+    <text x="240" y="20" class="text-code" font-size="11" font-weight="500">EP</text>
+    
+    <!-- Rows -->
+    <g font-family="'JetBrains Mono', monospace" font-size="11" class="text-base">
+      <text x="15" y="55">BRA</text> <text x="100" y="55">SRB</text> <text x="180" y="55">73.2%</text> <text x="240" y="55">2.14</text>
+      <text x="15" y="85">ARG</text> <text x="100" y="85">MEX</text> <text x="180" y="85">68.1%</text> <text x="240" y="85">1.95</text>
+      <!-- Highlighted Decision Row -->
+      <rect x="0" y="100" width="300" height="30" fill="transparent" stroke="#D97706" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <rect x="0" y="100" width="300" height="30" fill="#D97706" opacity="0.05"/>
+      <text x="15" y="119" class="accent-gold" font-weight="700">ESP</text> 
+      <text x="100" y="119" class="accent-gold" font-weight="700">GER</text> 
+      <text x="180" y="119" class="accent-gold" font-weight="700">38.4%</text> 
+      <text x="240" y="119" class="accent-gold" font-weight="700">1.82</text>
+      
+      <text x="15" y="149">FRA</text> <text x="100" y="149">DEN</text> <text x="180" y="149">54.9%</text> <text x="240" y="149">1.61</text>
+    </g>
+  </g>
+
+  <!-- Probabilistic Curve Visualization -->
+  <g transform="translate(420, 100)">
+    <rect x="0" y="0" width="320" height="180" class="panel" />
+    <text x="20" y="25" class="text-base" font-size="11" font-weight="600" letter-spacing="1">MONTE CARLO SIMULATION (N=100k)</text>
+    
+    <!-- Axes -->
+    <path d="M 30 150 L 290 150 M 30 150 L 30 50" class="grid-line" />
+    
+    <!-- Bell curve approximation using a path -->
+    <path d="M 30 150 C 70 150, 90 60, 150 60 C 210 60, 240 150, 290 150" class="stroke-teal" />
+    <!-- Filled area -->
+    <path d="M 30 150 C 70 150, 90 60, 150 60 C 210 60, 240 150, 290 150 L 290 150 L 30 150 Z" class="accent-teal" opacity="0.1" />
+    
+    <!-- Vertical marker for expected points -->
+    <path d="M 170 65 L 170 150" class="stroke-gold" stroke-dasharray="3 3"/>
+    <circle cx="170" cy="65" r="3" class="accent-gold" />
+    
+    <text x="175" y="60" class="text-code accent-gold" font-size="10" font-weight="700">OPTIMAL E[P]</text>
+  </g>
+
+  <!-- Evidence Banner -->
+  <g transform="translate(60, 320)">
+    <rect x="0" y="0" width="680" height="70" class="panel" stroke-width="1.5" />
+    
+    <g transform="translate(40, 38)">
+      <text x="0" y="0" class="text-base" font-size="12" font-weight="500" letter-spacing="1">OBSERVED UPLIFT VS MODAL SELECTION</text>
+      <text x="500" y="5" class="text-base accent-gold" font-size="32" font-weight="700" letter-spacing="-1">+10 pts</text>
+    </g>
+  </g>
+
+</svg>
