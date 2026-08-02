@@ -48,11 +48,24 @@ Dixon–Coles · Monte Carlo simulation · Scoring-rule optimisation · Reproduc
 
 [**EXPLORE SYSTEM ↗**](https://github.com/guilobocm/probabilistic-football-pool-optimiser) &nbsp;·&nbsp; [**READ POST-MORTEM ↗**](https://github.com/guilobocm/probabilistic-football-pool-optimiser/tree/main/postmortem)
 
-### [Multi-Armed Bandit Optimisation API](https://github.com/guilobocm/activeview-multi-armed-bandit)
-**Problem:** Dynamically allocate traffic to optimise reward rates during live experiments.  
-**System:** Thompson Sampling · FastAPI · PostgreSQL · Online Experimentation.  
-**Evidence:** Fast allocation · State persistence · Reproducible strategies.  
-[Explore Project](https://github.com/guilobocm/activeview-multi-armed-bandit)
+<br>
+
+**02 / PRODUCTION ML SYSTEMS**
+### [MULTI-ARMED BANDIT OPTIMISATION API](https://github.com/guilobocm/activeview-multi-armed-bandit)
+> An online experimentation system that dynamically routes traffic to maximise cumulative reward during live campaigns.
+
+[![Bandit Optimisation Plate](project-bandit.svg)](https://github.com/guilobocm/activeview-multi-armed-bandit)
+
+**ENGINEERING PROBLEM**  
+Allocate traffic across competing variants in real-time, balancing exploration of uncertain options with exploitation of the winning arm.
+
+**SYSTEM**  
+Thompson Sampling · FastAPI · PostgreSQL · Stateful Online Experimentation
+
+**EVIDENCE**  
+Sub-15ms allocation · Persistent state · Reproducible agent strategies
+
+[**EXPLORE SYSTEM ↗**](https://github.com/guilobocm/activeview-multi-armed-bandit)
 
 ### [Industrial Data Extraction Pipeline](https://github.com/guilobocm/tractian-ml-challenge)
 **Problem:** Extract and structure complex technical specifications from industrial catalogues.  
