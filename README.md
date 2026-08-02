@@ -134,24 +134,23 @@ Evidence tiers · prospective post-mortem · explicit limitations
 
 ---
 
-## Tools I Work With
+## Selected Tools
 
-* **Modelling:** Python, PyTorch, scikit-learn, Statsmodels
-* **Data:** SQL, PostgreSQL, Snowflake, Pandas
-* **Engineering:** FastAPI, Docker, GitHub Actions, uv
-* **Decision Systems:** Experimentation, MAB, Simulation, Optimisation
-
----
-
-## About Me
-
-I am a Data Scientist & ML Engineer based in Campinas, Brazil, with Wellington, New Zealand, on the horizon. My work spans from predictive maintenance in industrial settings to complex decision systems in sports analytics. I focus on the intersection of probabilistic modelling and business decision-making—building systems that don't just predict the future, but quantify uncertainty and optimise the actions taken from those predictions.
+**Modelling** · Python · PyTorch · scikit-learn · Statsmodels  
+**Data** · SQL · PostgreSQL · Snowflake · Pandas  
+**Engineering** · FastAPI · Docker · GitHub Actions · uv  
+**Decision Systems** · Experimentation · Simulation · Bandits · Optimisation
 
 ---
 
+## About
+
+I am a Data Scientist and ML Engineer based in Campinas, Brazil, building data and machine-learning systems for decisions under uncertainty. My work connects probabilistic modelling, experimentation, simulation and data engineering across sports, industrial and research settings. I am particularly interested in systems that make predictions auditable, expose uncertainty and connect technical outputs to concrete decisions.
+
+Wellington, New Zealand, is the long-term horizon.
+
+---
 
 ## Contact
 
-* **LinkedIn**: [linkedin.com/in/guilhermelobocm](https://www.linkedin.com/in/guilhermelobocm)
-* **Email**: [guilhermelobocm@gmail.com](mailto:guilhermelobocm@gmail.com)
-* **Portfolio**: [github.com/guilobocm](https://github.com/guilobocm)
+[**LinkedIn ↗**](https://www.linkedin.com/in/guilhermelobocm) · [**Email ↗**](mailto:guilhermelobocm@gmail.com)
