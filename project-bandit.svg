@@ -40,26 +40,34 @@
   <!-- Left Column: Routing Logic -->
   <g transform="translate(40, 100)">
     <rect x="0" y="0" width="340" height="180" class="panel" />
-    <text x="30" y="55" class="text-secondary" font-size="22" font-weight="700" letter-spacing="2">DYNAMIC ROUTING</text>
+    <text x="30" y="45" class="text-secondary" font-size="22" font-weight="700" letter-spacing="2">DYNAMIC ROUTING</text>
     
-    <!-- Flow visual -->
-    <g font-family="'JetBrains Mono', monospace" font-size="20" font-weight="700">
-      <rect x="30" y="85" width="120" height="40" class="bg" />
-      <text x="50" y="112" class="text-primary">REQUEST</text>
+    <!-- Flow visual (Traffic -> Policy -> Allocation Vector) -->
+    <g font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700" text-anchor="middle">
+      <text x="170" y="80" class="text-primary">TRAFFIC</text>
       
-      <!-- Arrow -->
-      <path d="M 165 105 L 195 105" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" />
-      <path d="M 185 95 L 195 105 L 185 115" stroke="#94A3B8" stroke-width="2" fill="none" stroke-linecap="round" />
-
-      <rect x="210" y="85" width="100" height="40" fill="#0F766E" opacity="0.1" stroke="#0F766E" stroke-width="2" rx="4" />
-      <text x="235" y="112" class="accent-teal" font-weight="800">ARM B</text>
+      <path d="M 170 90 L 170 105" stroke="#94A3B8" stroke-width="2" />
+      <path d="M 165 100 L 170 105 L 175 100" fill="none" stroke="#94A3B8" stroke-width="2" />
+      
+      <rect x="70" y="115" width="200" height="30" class="bg" />
+      <text x="170" y="136" class="text-primary">THOMPSON POLICY</text>
+      
+      <!-- Branching arrows -->
+      <path d="M 170 145 L 170 155" stroke="#94A3B8" stroke-width="2" />
+      <path d="M 170 150 L 100 150 L 100 155" fill="none" stroke="#94A3B8" stroke-width="2" />
+      <path d="M 170 150 L 240 150 L 240 155" fill="none" stroke="#94A3B8" stroke-width="2" />
+      
+      <!-- Allocation Vector -->
+      <text x="100" y="172" class="text-code">A 22%</text>
+      <text x="170" y="172" class="accent-teal">B 61%</text>
+      <text x="240" y="172" class="text-code">C 17%</text>
     </g>
   </g>
 
   <!-- Right Column: Beta Posteriors -->
   <g transform="translate(420, 100)">
     <rect x="0" y="0" width="340" height="180" class="panel" />
-    <text x="30" y="55" class="text-secondary" font-size="22" font-weight="700" letter-spacing="2">BETA POSTERIORS</text>
+    <text x="30" y="45" class="text-secondary" font-size="22" font-weight="700" letter-spacing="2">BETA POSTERIORS</text>
     
     <!-- Chart Area -->
     <g transform="translate(30, 150)">
@@ -87,9 +95,12 @@
     <rect x="0" y="0" width="720" height="100" class="panel" stroke-width="2" />
     
     <g transform="translate(40, 58)">
-      <text x="0" y="0" class="text-secondary" font-size="28" font-weight="700" letter-spacing="2">POSTGRESQL STATE PERSISTENCE</text>
-      <text x="460" y="-12" class="text-secondary" font-size="18" font-weight="700" letter-spacing="1">ALLOCATION LATENCY</text>
-      <text x="460" y="24" class="accent-gold" font-size="38" font-weight="800" letter-spacing="0">&lt; 15ms</text>
+      <text x="0" y="-14" class="text-secondary" font-size="22" font-weight="700" letter-spacing="2">POSTGRESQL</text>
+      <text x="0" y="14" class="text-secondary" font-size="22" font-weight="700" letter-spacing="2">STATE PERSISTENCE</text>
+      
+      <!-- Removed benchmark < 15ms. Using qualitative architecture detail instead -->
+      <text x="440" y="-14" class="text-secondary" font-size="16" font-weight="700" letter-spacing="1">MULTI-VARIANT</text>
+      <text x="440" y="24" class="accent-gold" font-size="38" font-weight="800" letter-spacing="0">A/B/N</text>
     </g>
   </g>
 
