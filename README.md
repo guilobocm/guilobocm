@@ -1,13 +1,15 @@
 <p align="center">
   <picture>
-    <img src="hero.svg" alt="Guilherme Lôbo Calazans Machado - Decision Intelligence · ML Systems · Data Engineering" />
+    <img src="hero.svg" alt="Guilherme Lôbo Calazans Machado - Decision Intelligence · Data Science · ML Systems · Data Engineering" />
   </picture>
 </p>
 
 <p align="center">
-  <a href="#featured-systems"><strong>FEATURED SYSTEMS</strong></a>
+  <a href="#featured-systems"><strong>SYSTEMS</strong></a>
   &nbsp;·&nbsp;
-  <a href="#engineering-evidence"><strong>ENGINEERING</strong></a>
+  <a href="#engineering-evidence"><strong>EVIDENCE</strong></a>
+  &nbsp;·&nbsp;
+  <a href="#now-building"><strong>NOW BUILDING</strong></a>
   &nbsp;·&nbsp;
   <a href="#about-me"><strong>ABOUT</strong></a>
   &nbsp;·&nbsp;
@@ -17,17 +19,14 @@
 ## What I Build
 
 **01 &nbsp; DECISION INTELLIGENCE**  
-Forecasting probabilístico, experimentação, causalidade, simulação e otimização.
-
-<br>
+Probabilistic forecasting, experimentation, causal inference, simulation and optimisation.
 
 **02 &nbsp; PRODUCTION ML SYSTEMS**  
-Pipelines de treino e inferência, APIs, observabilidade, testes, versionamento e MLOps.
-
-<br>
+Training and inference pipelines, APIs, observability, testing, versioning and MLOps.
 
 **03 &nbsp; DATA PLATFORMS**  
-Ingestão, transformação, qualidade, modelagem analítica, lineage e analytics.
+Ingestion, transformation, quality, analytical modelling, lineage and analytics.
+
 ---
 
 ## Featured Systems
