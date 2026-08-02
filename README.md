@@ -4,17 +4,30 @@
   </picture>
 </p>
 
+<p align="center">
+  <a href="#featured-systems"><strong>FEATURED SYSTEMS</strong></a>
+  &nbsp;·&nbsp;
+  <a href="#engineering-evidence"><strong>ENGINEERING</strong></a>
+  &nbsp;·&nbsp;
+  <a href="#about-me"><strong>ABOUT</strong></a>
+  &nbsp;·&nbsp;
+  <a href="#contact"><strong>CONTACT</strong></a>
+</p>
+
 ## What I Build
 
-### 🧠 Decision Intelligence
+**01 &nbsp; DECISION INTELLIGENCE**  
 Forecasting probabilístico, experimentação, causalidade, simulação e otimização.
 
-### ⚙️ Production ML Systems
+<br>
+
+**02 &nbsp; PRODUCTION ML SYSTEMS**  
 Pipelines de treino e inferência, APIs, observabilidade, testes, versionamento e MLOps.
 
-### 📊 Data Platforms
-Ingestão, transformação, qualidade, modelagem analítica, lineage e disponibilização de dados.
+<br>
 
+**03 &nbsp; DATA PLATFORMS**  
+Ingestão, transformação, qualidade, modelagem analítica, lineage e analytics.
 ---
 
 ## Featured Systems
