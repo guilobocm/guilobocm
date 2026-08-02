@@ -31,11 +31,9 @@ Ingestion, transformation, quality, analytical modelling, lineage and analytics.
 
 ## Featured Systems
 
-<br>
-
 **01 / DECISION SCIENCE**
 ### [PROBABILISTIC FOOTBALL POOL OPTIMISER](https://github.com/guilobocm/probabilistic-football-pool-optimiser)
-> A reproducible decision-science system that combines football probability models, tournament simulation and scoring-rule optimisation.
+> A reproducible decision system combining football probability modelling, Monte Carlo simulation and scoring-rule optimisation.
 
 [![Football Pool Optimiser Plate](project-football.svg)](https://github.com/guilobocm/probabilistic-football-pool-optimiser)
 
