@@ -44,7 +44,7 @@ Choose predictions that maximise expected points, rather than simply selecting t
 Dixon–Coles · Monte Carlo simulation · Scoring-rule optimisation · Reproducible pipeline
 
 **EVIDENCE**  
-100,000 simulations · 60.6% 1X2 accuracy · +10 observed points against modal selection
+100,000 simulations · 60.6% 1X2 accuracy · Directional +10-point uplift against modal selection
 
 [**EXPLORE SYSTEM ↗**](https://github.com/guilobocm/probabilistic-football-pool-optimiser) &nbsp;·&nbsp; [**READ POST-MORTEM ↗**](https://github.com/guilobocm/probabilistic-football-pool-optimiser/tree/main/postmortem)
 
@@ -52,7 +52,7 @@ Dixon–Coles · Monte Carlo simulation · Scoring-rule optimisation · Reproduc
 
 **02 / PRODUCTION ML SYSTEMS**
 ### [MULTI-ARMED BANDIT OPTIMISATION API](https://github.com/guilobocm/activeview-multi-armed-bandit)
-> An online experimentation system that dynamically routes traffic to maximise cumulative reward during live campaigns.
+> An online experimentation API that computes dynamic traffic allocations while balancing exploration and exploitation.
 
 [![Bandit Optimisation Plate](project-bandit.svg)](https://github.com/guilobocm/activeview-multi-armed-bandit)
 
@@ -63,7 +63,7 @@ Allocate traffic across competing variants in real-time, balancing exploration o
 Thompson Sampling · FastAPI · PostgreSQL · Stateful Online Experimentation
 
 **EVIDENCE**  
-Sub-15ms allocation · Persistent state · Reproducible agent strategies
+Dynamic A/B/N allocation · PostgreSQL state persistence · Tested allocation constraints
 
 [**EXPLORE SYSTEM ↗**](https://github.com/guilobocm/activeview-multi-armed-bandit)
 
@@ -82,7 +82,7 @@ Extract consistent product attributes from noisy, semi-structured technical docu
 Parsing pipeline · Attribute normalisation · Schema mapping · Validation logic
 
 **EVIDENCE**  
-Structured attribute coverage 90%+ · Robust parsing of semi-structured assets · Reproducible extraction workflow
+12-product demo · Schema-aligned JSON outputs · Product, specification, BOM and asset extraction
 
 [**EXPLORE SYSTEM ↗**](https://github.com/guilobocm/tractian-ml-challenge)
 
@@ -90,12 +90,25 @@ Structured attribute coverage 90%+ · Robust parsing of semi-structured assets �
 
 ## Engineering Evidence
 
-* ✓ Reproducible pipelines and locked environments
-* ✓ Unit and end-to-end tests
-* ✓ Data and schema validation
-* ✓ CI quality gates
-* ✓ Model and decision evaluation
-* ✓ Auditable experiment outputs
+**REPRODUCIBILITY**  
+Locked environments · deterministic simulation · documented execution  
+↳ [*Football Optimiser*](https://github.com/guilobocm/probabilistic-football-pool-optimiser) · [*Entre-Eras*](https://github.com/guilobocm/entre-eras)
+
+**TESTING & QUALITY GATES**  
+Unit tests · E2E journeys · CI checks  
+↳ [*Entre-Eras*](https://github.com/guilobocm/entre-eras) · [*Football Optimiser*](https://github.com/guilobocm/probabilistic-football-pool-optimiser)
+
+**DATA QUALITY**  
+Schema-aligned outputs · missing-data handling · validation logic  
+↳ [*Industrial Extraction Pipeline*](https://github.com/guilobocm/tractian-ml-challenge)
+
+**ONLINE DECISION SYSTEMS**  
+Stateful API · Beta posteriors · dynamic A/B/N allocation  
+↳ [*Multi-Armed Bandit API*](https://github.com/guilobocm/activeview-multi-armed-bandit)
+
+**AUDITABILITY**  
+Evidence tiers · post-mortem · explicit limitations  
+↳ [*Football Optimiser*](https://github.com/guilobocm/probabilistic-football-pool-optimiser)
 
 ---
 

@@ -67,21 +67,22 @@
   </g>
 
   <!-- Center Column: Bridge (Extraction Logic) -->
-  <g transform="translate(330, 110)">
-    <g font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" class="text-secondary" text-anchor="middle">
+  <g transform="translate(330, 105)">
+    <!-- Increased font size to 20px and tightened vertical spacing for mobile readability -->
+    <g font-family="'JetBrains Mono', monospace" font-size="20" font-weight="700" class="text-secondary" text-anchor="middle">
       <text x="70" y="30">PARSE</text>
       <path d="M 70 40 L 70 50" stroke="#94A3B8" stroke-width="2" />
       <path d="M 65 45 L 70 50 L 75 45" fill="none" stroke="#94A3B8" stroke-width="2" />
 
-      <text x="70" y="70">NORMALISE</text>
-      <path d="M 70 80 L 70 90" stroke="#94A3B8" stroke-width="2" />
-      <path d="M 65 85 L 70 90 L 75 85" fill="none" stroke="#94A3B8" stroke-width="2" />
+      <text x="70" y="75">NORMALISE</text>
+      <path d="M 70 85 L 70 95" stroke="#94A3B8" stroke-width="2" />
+      <path d="M 65 90 L 70 95 L 75 90" fill="none" stroke="#94A3B8" stroke-width="2" />
 
-      <text x="70" y="110">MAP</text>
-      <path d="M 70 120 L 70 130" stroke="#94A3B8" stroke-width="2" />
-      <path d="M 65 125 L 70 130 L 75 125" fill="none" stroke="#94A3B8" stroke-width="2" />
+      <text x="70" y="120">MAP</text>
+      <path d="M 70 130 L 70 140" stroke="#94A3B8" stroke-width="2" />
+      <path d="M 65 135 L 70 140 L 75 135" fill="none" stroke="#94A3B8" stroke-width="2" />
 
-      <text x="70" y="150">VALIDATE</text>
+      <text x="70" y="165">VALIDATE</text>
     </g>
   </g>
 
@@ -110,6 +111,8 @@
       
       <text x="25" y="175" class="text-primary">}</text>
     </g>
+    <!-- Honesty constraint tag -->
+    <text x="25" y="200" class="text-secondary" font-size="10" font-weight="500" letter-spacing="0" opacity="0.6">* ILLUSTRATIVE TRANSFORMATION</text>
   </g>
 
   <!-- Footer Banner -->
@@ -119,10 +122,11 @@
     <g transform="translate(40, 58)">
       <text x="0" y="0" class="text-secondary" font-size="28" font-weight="700" letter-spacing="2">SCHEMA-DRIVEN EXTRACTION</text>
       
-      <text x="490" y="-18" class="text-secondary" font-size="16" font-weight="700" letter-spacing="1">STRUCTURED ATTRIBUTE</text>
-      <text x="490" y="2" class="text-secondary" font-size="16" font-weight="700" letter-spacing="1">COVERAGE</text>
+      <text x="560" y="-18" class="text-secondary" font-size="16" font-weight="700" letter-spacing="1">VERIFIABLE</text>
+      <text x="560" y="2" class="text-secondary" font-size="16" font-weight="700" letter-spacing="1">OUTPUT</text>
       
-      <text x="490" y="42" class="accent-gold" font-size="38" font-weight="800" letter-spacing="0">90%+</text>
+      <!-- Replaced 90%+ coverage with verified repo capability -->
+      <text x="490" y="42" class="accent-gold" font-size="36" font-weight="800" letter-spacing="0">12-PRODUCT DEMO</text>
     </g>
   </g>
 
