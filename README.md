@@ -91,24 +91,25 @@ Parsing pipeline · Attribute normalisation · Schema mapping · Validation logi
 ## Engineering Evidence
 
 **REPRODUCIBILITY**  
-Locked environments · deterministic simulation · documented execution  
-↳ [*Football Optimiser*](https://github.com/guilobocm/probabilistic-football-pool-optimiser) · [*Entre-Eras*](https://github.com/guilobocm/entre-eras)
+Locked environments · deterministic execution · documented local workflows  
+↳ [Football Optimiser](https://github.com/guilobocm/probabilistic-football-pool-optimiser) · [Entre-Eras](https://github.com/guilobocm/entre-eras)
 
 **TESTING & QUALITY GATES**  
-Unit tests · E2E journeys · CI checks  
-↳ [*Entre-Eras*](https://github.com/guilobocm/entre-eras) · [*Football Optimiser*](https://github.com/guilobocm/probabilistic-football-pool-optimiser)
+CI workflows · unit and smoke tests · Playwright end-to-end journeys  
+↳ [Entre-Eras](https://github.com/guilobocm/entre-eras) — [CI proof ↗](https://github.com/guilobocm/entre-eras/blob/main/.github/workflows/ci.yml)  
+↳ [Football Optimiser](https://github.com/guilobocm/probabilistic-football-pool-optimiser) — [validation proof ↗](https://github.com/guilobocm/probabilistic-football-pool-optimiser/blob/main/scripts/validate.sh)
 
 **DATA QUALITY**  
-Schema-aligned outputs · missing-data handling · validation logic  
-↳ [*Industrial Extraction Pipeline*](https://github.com/guilobocm/tractian-ml-challenge)
+Schema-aligned outputs · missing-data handling · validation and fallback logic  
+↳ [Industrial Extraction Pipeline](https://github.com/guilobocm/tractian-ml-challenge)
 
 **ONLINE DECISION SYSTEMS**  
 Stateful API · Beta posteriors · dynamic A/B/N allocation  
-↳ [*Multi-Armed Bandit API*](https://github.com/guilobocm/activeview-multi-armed-bandit)
+↳ [Multi-Armed Bandit API](https://github.com/guilobocm/activeview-multi-armed-bandit)
 
 **AUDITABILITY**  
-Evidence tiers · post-mortem · explicit limitations  
-↳ [*Football Optimiser*](https://github.com/guilobocm/probabilistic-football-pool-optimiser)
+Evidence tiers · prospective post-mortem · explicit limitations  
+↳ [Football Optimiser](https://github.com/guilobocm/probabilistic-football-pool-optimiser) — [audit proof ↗](https://github.com/guilobocm/probabilistic-football-pool-optimiser/blob/main/postmortem/README.md)
 
 ---
 
