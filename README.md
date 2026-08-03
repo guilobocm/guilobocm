@@ -92,11 +92,10 @@ Parsing pipeline · Attribute normalisation · Schema mapping · Validation logi
 
 **REPRODUCIBILITY**  
 Locked environments · deterministic execution · documented local workflows  
-↳ [Football Optimiser](https://github.com/guilobocm/probabilistic-football-pool-optimiser) · [Entre-Eras](https://github.com/guilobocm/entre-eras)
+↳ [Football Optimiser](https://github.com/guilobocm/probabilistic-football-pool-optimiser) — [validation proof ↗](https://github.com/guilobocm/probabilistic-football-pool-optimiser/blob/main/scripts/validate.sh)
 
 **TESTING & QUALITY GATES**  
-CI workflows · unit and smoke tests · Playwright end-to-end journeys  
-↳ [Entre-Eras](https://github.com/guilobocm/entre-eras) — [CI proof ↗](https://github.com/guilobocm/entre-eras/blob/main/.github/workflows/ci.yml)  
+Smoke tests · validation checks · reproducible execution gates  
 ↳ [Football Optimiser](https://github.com/guilobocm/probabilistic-football-pool-optimiser) — [validation proof ↗](https://github.com/guilobocm/probabilistic-football-pool-optimiser/blob/main/scripts/validate.sh)
 
 **DATA QUALITY**  
