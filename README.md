@@ -11,7 +11,7 @@
   &nbsp;·&nbsp;
   <a href="#now-building"><strong>NOW BUILDING</strong></a>
   &nbsp;·&nbsp;
-  <a href="#about-me"><strong>ABOUT</strong></a>
+  <a href="#about"><strong>ABOUT</strong></a>
   &nbsp;·&nbsp;
   <a href="#contact"><strong>CONTACT</strong></a>
 </p>
