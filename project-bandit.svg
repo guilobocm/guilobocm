@@ -86,7 +86,7 @@
       <path d="M 170 0 C 190 0, 210 -100, 230 -100 C 250 -100, 270 0, 290 0" class="stroke-teal" />
       <!-- Filled Area -->
       <path d="M 170 0 C 190 0, 210 -100, 230 -100 C 250 -100, 270 0, 290 0 L 290 0 Z" class="accent-teal" opacity="0.1" />
-      <text x="225" y="-110" class="accent-teal" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700">B</text>
+      <text x="242" y="-88" class="accent-teal" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700">B</text>
     </g>
   </g>
 
