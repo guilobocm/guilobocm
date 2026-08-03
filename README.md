@@ -115,20 +115,15 @@ Evidence tiers · prospective post-mortem · explicit limitations
 
 ## Now Building
 
-> **NOW · ACTIVE PUBLIC SYSTEM**  
-> [**ENTRE-ERAS**](https://github.com/guilobocm/entre-eras)  
+> **NOW · ACTIVE SYSTEM**  
+> **ENTRE-ERAS**  
 > A deterministic historical football simulation engine and asynchronous management game.  
 > **Current milestone:** stabilising the draft-to-competition journey, versioned persistence and mobile experience.
 >
 > **NEXT · PLATFORM DEFINITION**  
 > **OPEN DECISION LAB**  
 > A reusable architecture for forecasting, uncertainty, simulation, optimisation and monitoring.  
-> **Current milestone:** defining the first concrete use case, public contracts and project boundaries before implementation.
->
-> **RESEARCH · ACADEMIC SYSTEM**  
-> **RAILWAY PREDICTIVE MAINTENANCE**  
-> Acoustic deep learning for fault detection and remaining-useful-life estimation.  
-> **Current milestone:** establishing reproducible baselines, uncertainty-aware evaluation and a clear public/private data strategy.
+> **Current milestone:** defining the first concrete public use case, system boundaries and evidence requirements before implementation.
 
 <sub>Updated August 2026 · Active work only, not a complete roadmap.</sub>
 
